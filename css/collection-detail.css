@@ -1,0 +1,26 @@
+/*content*/
+/*body{*/
+    /*background-color: #edeef0;*/
+/*}*/
+content{
+    margin: 20px 0;
+}
+.c-designer-image>img{
+    margin-left: 10%;
+    height: 200px;
+    border: 1px solid yellowgreen;
+    padding: 10px;
+}
+.c-thumbnail-img{
+    border: 1px solid brown;
+    margin: 10px;
+    border-radius: 3px;
+    background-color: #fdf8ff;
+}
+.c-thumbnail-img>img{
+    height: 200px;
+}
+.c-thumbnail-img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}

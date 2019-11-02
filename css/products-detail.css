@@ -1,0 +1,88 @@
+/*content*/
+/*body{*/
+    /*background-color: #edeef0;*/
+/*}*/
+.c-productcontent{
+    margin-top: 40px;
+}
+.c-khungcomment{
+    border: 1px dashed #8D7346;
+    color: #30c247;
+}
+.c-khungcomment .c-profile{
+    margin-right: -30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #1f15fe;
+    clear: both;
+}
+.c-khungcomment .c-comment{
+    margin-top: 40px;
+    margin-left: 10px;
+    color: #3c763d;
+    font-weight: bold;
+}
+.c-khungcomment img{
+    width: 30%;
+}
+.c-mayyoualsolike{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+.c-alsolike{
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 5px;
+    background-color: #fdf8ff;
+}
+.c-alsolike>a>img{
+    padding-top: 5px;
+    height: 200px;
+}
+.c-alsolike>a>img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.c-detail>img{
+    margin-left: 30%;
+    height: 300px;
+    border: 1px solid yellowgreen;
+    padding: 10px;
+}
+.c-product-name{
+    border-bottom: 2px solid royalblue;
+}
+.c-icon-color-Red{
+    height: 20px;
+    width: 40px;
+    background-color: red;
+}
+.c-icon-color-Pink{
+    height: 20px;
+    width: 40px;
+    background-color: pink;
+}
+.c-icon-color-Brown{
+    height: 20px;
+    width: 40px;
+    background-color: brown;
+}
+.c-icon-color-Green{
+    height: 20px;
+    width: 40px;
+    background-color: green;
+}
+.c-icon-color-Snow{
+    height: 20px;
+    width: 40px;
+    background-color: wheat;
+}
+.c-icon-color-Blue{
+    height: 20px;
+    width: 40px;
+    background-color: blue;
+}
+h5{
+    line-height: 25px;
+}

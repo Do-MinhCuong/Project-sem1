@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "image/NguyenCongTri/CuocDaoChoiCuaCacViSao/DamDaTiec1.png",
+    "name": "Dam Da Tiec 1",
+    "price": "$120",
+    "color":"Yellow",
+    "type":"Suits",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Wool 97%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 2,
+    "imgSrc": "image/NguyenCongTri/CuocDaoChoiCuaCacViSao/DamDaTiec2.png",
+    "name": "Dam Da Tiec 2",
+    "price": "$130",
+    "color":"White",
+    "type":"Tops",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Wool 97%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 3,
+    "imgSrc": "image/NguyenCongTri/CuocDaoChoiCuaCacViSao/DamDaTiec3.png",
+    "name": "Dam Da Tiec 3",
+    "price": "$140",
+    "color":"Red",
+    "type":"Jeans",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Wool 97%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 4,
+    "imgSrc": "image/NguyenCongTri/CuocDaoChoiCuaCacViSao/DamDaTiec4.png",
+    "name": "Dam Da Tiec 4",
+    "price": "$150",
+    "color":"Orange",
+    "type":"Dress",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Wool 97%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 5,
+    "imgSrc": "image/NguyenCongTri/CuocDaoChoiCuaCacViSao/DamDaTiec5.png",
+    "name": "Dam Da Tiec 5",
+    "price": "$130",
+    "color":"Black",
+    "type":"Suits",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Wool 97%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 6,
+    "imgSrc": "image/NguyenCongTri/CuocDaoChoiCuaCacViSao/DamDaTiec6.png",
+    "name": "Dam Da Tiec 6",
+    "price": "$200",
+    "color":"Gray",
+    "type":"Tops",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Wool 97%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 7,
+    "imgSrc": "image/NguyenCongTri/CuocDaoChoiCuaCacViSao/DamDaTiec7.png",
+    "name": "Dam Da Tiec 7",
+    "price": "$160",
+    "color":"Yellow",
+    "type":"Skirts",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Wool 97%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 8,
+    "imgSrc": "image/NguyenCongTri/CuocDaoChoiCuaCacViSao/DamDaTiec8.png",
+    "name": "Dam Da Tiec 8",
+    "price": "$250",
+    "color":"Green",
+    "type":"Dress",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Wool 97%, Elastane 3%.",
+    "code":17428787259530055
+  }
+]

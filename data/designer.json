@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "image/designer/CongTri.png",
+    "name": "Nguyen Cong Tri",
+    "country":"Viet Nam",
+    "img1":"image/designer/CongTri/DamDaTiec1.png",
+    "img2":"image/designer/CongTri/DamDaTiec2.png",
+    "img3":"image/designer/CongTri/DamDaTiec3.png",
+    "img4":"image/designer/CongTri/DamDaTiec4.png",
+    "img5":"image/designer/CongTri/DamDaTiec5.png",
+    "img6":"image/designer/CongTri/DamDaTiec6.png"
+  },
+  {
+    "id": 2,
+    "imgSrc": "image/designer/PierreCardin.PNG",
+    "name": "Pierre Cardin",
+    "country":"Italia",
+    "img1":"image/designer/PierreCardin/1.jpg",
+    "img2":"image/designer/PierreCardin/2.jpg",
+    "img3":"image/designer/PierreCardin/3.jpg",
+    "img4":"image/designer/PierreCardin/4.jpg",
+    "img5":"image/designer/PierreCardin/5.jpg",
+    "img6":"image/designer/PierreCardin/6.jpg"
+  },
+  {
+    "id": 3,
+    "imgSrc": "image/designer/TomFord.PNG",
+    "name": "Tom Ford",
+    "country":"America",
+    "img1":"image/designer/TomFord/1.jpg",
+    "img2":"image/designer/TomFord/2.jpg",
+    "img3":"image/designer/TomFord/3.jpg",
+    "img4":"image/designer/TomFord/4.jpg",
+    "img5":"image/designer/TomFord/5.jpg",
+    "img6":"image/designer/TomFord/6.jpg"
+  },
+  {
+    "id": 4,
+    "imgSrc": "image/designer/YvesSaintLaurent.png",
+    "name": "Yves Saint Laurent",
+    "country":"France",
+    "img1":"image/designer/YvesSaintLaurent/1.jpg",
+    "img2":"image/designer/YvesSaintLaurent/2.jpg",
+    "img3":"image/designer/YvesSaintLaurent/3.jpg",
+    "img4":"image/designer/YvesSaintLaurent/4.jpg",
+    "img5":"image/designer/YvesSaintLaurent/5.jpg",
+    "img6":"image/designer/YvesSaintLaurent/6.jpg"
+  }
+]

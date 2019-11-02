@@ -1,0 +1,220 @@
+/*==========================*/
+/*add to cart */
+/*==========================*/
+
+#counter{
+    position: absolute;
+    top: -8px;
+    left: -14px;
+    background-color: red;
+    width: 30px;
+    height: 20px;
+    border-radius: 10px;
+    color: white;
+    line-height: 1.6em;
+    text-align: center;
+    z-index: 2;
+}
+#add-to-cart{
+    position: fixed;
+    right: 20px;
+    top: 20%;
+    z-index: 99;
+    /*opacity: 0;*/
+    transition: all .5s ease ;
+}
+#shopping-cart{
+    color: #fe4fdd;
+    line-height: 61px;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: gainsboro;
+    width: 70px;
+    height: 61px;
+    float: left;
+    cursor: pointer;
+    margin-top: -1px;
+    transition: all .5s ease ;
+    position: relative;
+    border: 1px solid #1BBC9B;
+    margin-right: -1px;
+    z-index: 1;
+}
+#shopping-cart:hover{
+    background-color: #fe2fe0;
+    color: white;
+}
+#payment{
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 0 6px rgba(15,150,112,0.53);
+    float: left;
+    padding-bottom: 20px;
+    border-left: 1px solid #1BBC9B;
+    display: none;
+    overflow: auto;
+}
+#payment .col-md-12 {
+    height: 60px;
+    line-height: 60px;
+    border-top: 1px solid #1BBC9B;
+    clear: both;
+}
+#payment .col-md-12 .col-md-1,
+#payment .col-md-12 .col-md-4,
+#payment .col-md-12 .col-md-3,
+#payment .col-md-12 .col-md-3{
+    border-right: 1px solid #1BBC9B;
+}
+#payment .col-md-12 .col-md-3 input{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+#bt-payment{
+    position: relative;
+    padding-bottom: 40px;
+}
+#header-payment{
+    background-color: #1b3446;
+    color: white;
+}
+#header-payment .col-md-2{
+    text-align: center;
+}
+#clearAll{
+    cursor: pointer;
+    border-bottom: 1px solid #1BBC9B;
+    margin-left: 15px;
+}
+#clearAll:hover{
+    color: #1BBC9B;
+}
+.trash{
+    font-size: 1.4em;
+    margin-left: 50%;
+    cursor: pointer;
+    color: #555555;
+    line-height: 60px;
+}
+.trash:hover{
+    color: #1BBC9B;
+}
+
+#snack_bar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #1a3345;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snack_bar.show {
+    visibility: visible;
+    animation: fadein 0.5s, fadeout 0.5s 1.2s;
+}
+.show {
+    visibility: visible;
+    animation: fadein 0.5s, fadeout 0.5s 1.2s;
+}
+#snack_bar span{
+    color: #1BBC9B;
+}
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+/*==========================
+button view
+=======================================*/
+.button-view .span1{
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+    background-color: rgba(0,125,99,0.91);
+    width: 105px;
+    line-height: 35px;
+    padding-top: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    z-index: 1;
+}
+.button-view .span1-1{
+    position: relative;
+    z-index: 3;
+    transition: .5s;
+}
+.button-view .span1-2{
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    background-color: rgba(1,92,69,0.73);
+    width: 105px;
+    height: 40px;
+    z-index: 2;
+    transition: all 0.5s ease;
+}
+.button-view:hover .span1-2{
+    right: 0;
+    transition: all 0.4s ease;
+}
+.button-view .span2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    background-color: #015c45;
+    color: black;
+    overflow: hidden;
+}
+.button-view .span2 .span2-1 {
+    position: absolute;
+    left: 28%;
+    top: 28%;
+    width: 50%;
+}
+.button-view .span2 .span2-2 {
+    position: absolute;
+    left: -128%;
+    top: 28%;
+    width: 50%
+}
+.button-view:hover .span2 .span2-1 {
+    left: 128%;
+    transition: 0.7s;
+}
+
+.button-view:hover .span2 .span2-2 {
+    left: 28%;
+    transition: all .7s ease;
+}
+/*==============
+ */

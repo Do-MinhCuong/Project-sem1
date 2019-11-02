@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "image/NguyenCongTri/DiNhatHatSuongNghieng/DiNhatHatSuongNghieng1.png",
+    "name": "Di Nhat Hat Suong Nghieng 1",
+    "price": "$120",
+    "color":"White",
+    "type":"Suits",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Wool 97%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 2,
+    "imgSrc": "image/NguyenCongTri/DiNhatHatSuongNghieng/DiNhatHatSuongNghieng2.png",
+    "name": "Di Nhat Hat Suong Nghieng 2",
+    "price": "$130",
+    "color":"White",
+    "type":"Suits",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Wool 97%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 3,
+    "imgSrc": "image/NguyenCongTri/DiNhatHatSuongNghieng/DiNhatHatSuongNghieng3.png",
+    "name": "Di Nhat Hat Suong Nghieng 3",
+    "price": "$140",
+    "color":"White",
+    "type":"Suits",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Wool 97%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 4,
+    "imgSrc": "image/NguyenCongTri/DiNhatHatSuongNghieng/DiNhatHatSuongNghieng4.png",
+    "name": "Di Nhat Hat Suong Nghieng 4",
+    "price": "$150",
+    "color":"White",
+    "type":"Suits",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Wool 97%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 5,
+    "imgSrc": "image/NguyenCongTri/DiNhatHatSuongNghieng/DiNhatHatSuongNghieng5.png",
+    "name": "Di Nhat Hat Suong Nghieng 5",
+    "price": "$160",
+    "color":"White",
+    "type":"Suits",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Wool 97%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 6,
+    "imgSrc": "image/NguyenCongTri/DiNhatHatSuongNghieng/DiNhatHatSuongNghieng6.png",
+    "name": "Di Nhat Hat Suong Nghieng 6",
+    "price": "$170",
+    "color":"Black",
+    "type":"Suits",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Wool 97%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id":7,
+    "imgSrc": "image/NguyenCongTri/DiNhatHatSuongNghieng/DiNhatHatSuongNghieng7.png",
+    "name": "Di Nhat Hat Suong Nghieng 7",
+    "price": "$180",
+    "color":"Black",
+    "type":"Suits",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Wool 97%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 8,
+    "imgSrc": "image/NguyenCongTri/DiNhatHatSuongNghieng/DiNhatHatSuongNghieng8.png",
+    "name": "Di Nhat Hat Suong Nghieng 8",
+    "price": "$190",
+    "color": "Black",
+    "type": "Suits",
+    "collection": "Cuoc Dao Choi Cua Cac Vi Sao",
+    "details": "<br>Composition Wool 97%, Elastane 3%.",
+    "code": 17428787259530055
+  }
+]

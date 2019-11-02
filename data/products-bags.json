@@ -1,0 +1,80 @@
+[
+  {
+    "id": 13,
+    "imgSrc": "image/bag/1.jpg",
+    "name": "Paola embellished bag",
+    "brand":"Gucci",
+    "designer":"Nguyen Cong Tri",
+    "price": "$120",
+    "color":"Pink",
+    "type":"jacket",
+    "collection":"Dolce",
+    "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 14,
+    "imgSrc": "image/bag/2.jpg",
+    "name": "Glossed-leather tote",
+    "brand":"Gucci",
+    "designer":"Tom Ford",
+    "price": "$130",
+    "color":"Brown",
+    "type":"dress",
+    "collection":"Dolce",
+    "details":"<br>Composition Polyester 100%.",
+    "code":7600457660107345
+  },
+  {
+    "id": 15,
+    "imgSrc": "image/bag/3.jpg",
+    "name": "Paola leather shoulder bag",
+    "brand":"BellaModa",
+    "designer":"Yves",
+    "price": "$150",
+    "color":"Green",
+    "type":"dress",
+    "collection":"Dolce",
+    "details":"<br>Composition Polyester 49%, Acetate 22%, Acrylic 13%, Silk 10%, Wool 6%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 16,
+    "imgSrc": "image/bag/4.jpg",
+    "name": "Pebbled-leather tote",
+    "brand":"Elise",
+    "designer":"Tom Ford",
+    "price": "$200",
+    "color":"White",
+    "type":"jacket",
+    "collection":"Di Nhat Hat Suong Nghieng",
+    "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 17,
+    "imgSrc": "image/bag/5.jpg",
+    "name": "Textured-leather backpack",
+    "brand":"Elise",
+    "designer":"Pierre Cardin",
+    "price": "$210",
+    "color":"Blue",
+    "type":"Jean",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 18,
+    "imgSrc": "image/bag/6.jpg",
+    "name": "Textured-leather tote",
+    "brand":"IvyModa",
+    "designer":"Tom Ford",
+    "price": "$220",
+    "color":"White",
+    "type":"Suits",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
+    "code":17428787259530055
+  }
+]

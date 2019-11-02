@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "image/Dolce/41924311kx_11_f.jpg",
+    "name": "Embellished wool-blend crepe jacket",
+    "price": "$120",
+    "color":"Pink",
+    "type":"jacket",
+    "collection":"Dolce",
+    "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 2,
+    "imgSrc": "image/Dolce/49505656je_11_f.jpg",
+    "name": "Embellished metallic jacquard mini dress",
+    "price": "$130",
+    "color":"Brown",
+    "type":"dress",
+    "collection":"Dolce",
+    "details":"<br>Composition Polyester 100%.",
+    "code":7600457660107345
+  },
+  {
+    "id": 3,
+    "imgSrc": "image/Dolce/35422882ej_8_f.jpg",
+    "name": "Appliquéd bouclé-tweed mini dress",
+    "price": "$150",
+    "color":"Green",
+    "type":"dress",
+    "collection":"Dolce",
+    "details":"<br>Composition Polyester 49%, Acetate 22%, Acrylic 13%, Silk 10%, Wool 6%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 4,
+    "imgSrc": "image/Dolce/11746267nt_8_f.jpg",
+    "name": "Appliquéd bouclé-tweed pumps",
+    "price": "$150",
+    "color":"Black",
+    "type":"Pumps",
+    "collection":"Dolce",
+    "details":"<br>Composition Polyester 49%, Acetate 22%, Acrylic 13%, Silk 10%, Wool 6%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 5,
+    "imgSrc": "image/Dolce/11746307jc_8_f.jpg",
+    "name": "Appliquéd bouclé-tweed mini Heels",
+    "price": "$150",
+    "color":"White",
+    "type":"Heels",
+    "collection":"Dolce",
+    "details":"<br>Composition Polyester 49%, Acetate 22%, Acrylic 13%, Silk 10%, Wool 6%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 6,
+    "imgSrc": "image/Dolce11769113uu_8_f.jpg",
+    "name": "Appliquéd bouclé-tweed Sandals",
+    "price": "$150",
+    "color":"Orange",
+    "type":"Sandals",
+    "collection":"Dolce",
+    "details":"<br>Composition Polyester 49%, Acetate 22%, Acrylic 13%, Silk 10%, Wool 6%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 7,
+    "imgSrc": "image/Dolce/35398343de_8_f.jpg",
+    "name": "Appliquéd bouclé-tweed mini Skirts",
+    "price": "$150",
+    "color":"Brown",
+    "type":"Skirts",
+    "collection":"Dolce",
+    "details":"<br>Composition Polyester 49%, Acetate 22%, Acrylic 13%, Silk 10%, Wool 6%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 8,
+    "imgSrc": "image/Dolce/41913671rr_8_f.jpg",
+    "name": "Appliquéd bouclé-tweed green skirts",
+    "price": "$150",
+    "color":"Green",
+    "type":"Skirts",
+    "collection":"Dolce",
+    "details":"<br>Composition Polyester 49%, Acetate 22%, Acrylic 13%, Silk 10%, Wool 6%.",
+    "code":17428787259530055
+  }
+]

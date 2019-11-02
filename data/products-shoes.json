@@ -1,0 +1,80 @@
+[
+  {
+    "id": 7,
+    "imgSrc": "image/shoes/1.jpg",
+    "name": "Crinkled-leather knee boots",
+    "brand":"Gucci",
+    "designer":"Pierre Cardin",
+    "price": "$120",
+    "color":"Pink",
+    "type":"jacket",
+    "collection":"Dolce",
+    "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 8,
+    "imgSrc": "image/shoes/2.jpg",
+    "name": "Rubbed-trimmed sneakers",
+    "brand":"BellaModa",
+    "designer":"Yves",
+    "price": "$130",
+    "color":"Brown",
+    "type":"dress",
+    "collection":"Dolce",
+    "details":"<br>Composition Polyester 100%.",
+    "code":7600457660107345
+  },
+  {
+    "id": 9,
+    "imgSrc": "image/shoes/3.jpg",
+    "name": "Shearling boots",
+    "brand":"Elise",
+    "designer":"Yves",
+    "price": "$150",
+    "color":"Green",
+    "type":"dress",
+    "collection":"Dolce",
+    "details":"<br>Composition Polyester 49%, Acetate 22%, Acrylic 13%, Silk 10%, Wool 6%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 10,
+    "imgSrc": "image/shoes/4.jpg",
+    "name": "Shearling-trimmed boots",
+    "brand":"IvyModa",
+    "designer":"Nguyen Cong Tri",
+    "price": "$200",
+    "color":"White",
+    "type":"jacket",
+    "collection":"Di Nhat Hat Suong Nghieng",
+    "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 11,
+    "imgSrc": "image/shoes/5.jpg",
+    "name": "Glittered pumps",
+    "brand":"Hermes",
+    "designer":"Tom Ford",
+    "price": "$210",
+    "color":"Blue",
+    "type":"Jean",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 12,
+    "imgSrc": "image/shoes/6.jpg",
+    "name": "Metallic boots",
+    "brand":"Gucci",
+    "designer":"Tom Ford",
+    "price": "$220",
+    "color":"White",
+    "type":"Suits",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
+    "code":17428787259530055
+  }
+]

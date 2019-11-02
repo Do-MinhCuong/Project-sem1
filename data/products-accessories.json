@@ -1,0 +1,80 @@
+[
+  {
+    "id": 19,
+    "imgSrc": "image/accessories/1.jpg",
+    "name": "Ama striped wool and cashmere-blend scarf",
+    "brand":"Hermes",
+    "designer":"Nguyen Cong Tri",
+    "price": "$120",
+    "color":"Pink",
+    "type":"jacket",
+    "collection":"Dolce",
+    "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 20,
+    "imgSrc": "image/accessories/2.jpg",
+    "name": "Clementine oxidized silver-plated crystal choker",
+    "brand":"Gucci",
+    "designer":"Tom Ford",
+    "price": "$130",
+    "color":"Brown",
+    "type":"dress",
+    "collection":"Dolce",
+    "details":"<br>Composition Polyester 100%.",
+    "code":7600457660107345
+  },
+  {
+    "id": 21,
+    "imgSrc": "image/accessories/3.jpg",
+    "name": "Odette oxidized silver-plated crystal earrings",
+    "brand":"Gucci",
+    "designer":"Pierre Cardin",
+    "price": "$150",
+    "color":"Green",
+    "type":"dress",
+    "collection":"Dolce",
+    "details":"<br>Composition Polyester 49%, Acetate 22%, Acrylic 13%, Silk 10%, Wool 6%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 22,
+    "imgSrc": "image/accessories/4.jpg",
+    "name": "Rhodium-plated crystal earrings",
+    "brand":"Elise",
+    "designer":"Tom Ford",
+    "price": "$200",
+    "color":"White",
+    "type":"jacket",
+    "collection":"Di Nhat Hat Suong Nghieng",
+    "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 23,
+    "imgSrc": "image/accessories/5.jpg",
+    "name": "Round-frame logo-embellished sunglasses",
+    "brand":"Gucci",
+    "designer":"Tom Ford",
+    "price": "$210",
+    "color":"Blue",
+    "type":"Jean",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 24,
+    "imgSrc": "image/accessories/6.jpg",
+    "name": "Sandra marled wool-blend scarf",
+    "brand":"Gucci",
+    "designer":"Tom Ford",
+    "price": "$220",
+    "color":"White",
+    "type":"Suits",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
+    "code":17428787259530055
+  }
+]

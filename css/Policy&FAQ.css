@@ -1,0 +1,71 @@
+.c-policy-title{
+    background-color: #3c763d;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+}
+.c-policy-title2{
+    color: green;
+}
+.policysilde{
+    margin-bottom: -100px;
+}
+li{
+    list-style-type: none;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: #1abc9c;
+}
+.nav-pills>li>a:hover{
+    background-color: greenyellow;
+    text-decoration: none;
+}
+#c-policy nav {
+    margin-top: 15%;
+    position: sticky;
+    top: 15%;
+}
+.c-ssp{
+    padding-top: 100px;
+}
+#c-policy{
+    position: relative;
+}
+
+#section1, #section2, #section3, #section4, #section5 { padding-top: 50px}
+@media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section4, #section5 {
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #myScrollspy{
+        display: none;
+    }
+    #section1, #section2, #section3, #section4, #section5{
+        margin-left: 0;
+    }
+}
+.c-faq-title img{
+    width: 14%;
+}
+.c-faq-title{
+    background-color: #1b6d85;
+    width: 150px;
+}
+.c-faq-title:hover{
+    width: 200px;
+    transition: 1s;
+}
+.c-faq a{
+    margin-bottom: 5px;
+    border: 1px solid green;
+    padding: 8px;
+    background-color: yellowgreen;
+    display: block;
+    border-radius: 3px;
+}
+.c-faq a:hover{
+    text-decoration: none;
+    background-color: blue;
+}

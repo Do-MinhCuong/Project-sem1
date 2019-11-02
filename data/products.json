@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "image/Dolce/41924311kx_11_f.jpg",
+    "name": "Embellished wool-blend crepe jacket",
+    "brand":"Elise",
+    "price": "$120",
+    "color":"Pink",
+    "type":"jacket",
+    "collection":"Dolce",
+    "designer":"Tom Ford",
+    "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 2,
+    "imgSrc": "image/Dolce/49505656je_11_f.jpg",
+    "name": "Embellished metallic jacquard mini dress",
+    "brand":"BellaModa",
+    "price": "$130",
+    "color":"Brown",
+    "type":"dress",
+    "collection":"Dolce",
+    "designer":"Tom Ford",
+    "details":"<br>Composition Polyester 100%.",
+    "code":7600457660107345
+  },
+  {
+    "id": 3,
+    "imgSrc": "image/Dolce/35422882ej_8_f.jpg",
+    "name": "Appliquéd bouclé-tweed mini dress",
+    "brand":"Gucci",
+    "price": "$150",
+    "color":"Green",
+    "type":"dress",
+    "collection":"Dolce",
+    "designer":"Tom Ford",
+    "details":"<br>Composition Polyester 49%, Acetate 22%, Acrylic 13%, Silk 10%, Wool 6%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 4,
+    "imgSrc": "image/NguyenCongTri/DiNhatHatSuongNghieng/DiNhatHatSuongNghieng1.PNG",
+    "name": "Embellished wool-blend dress 2",
+    "brand":"IvyModa",
+    "price": "$200",
+    "color":"White",
+    "type":"jacket",
+    "designer":"Nguyen Cong Tri",
+    "collection":"Di Nhat Hat Suong Nghieng",
+    "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 5,
+    "imgSrc": "image/NguyenCongTri//CuocDaoChoiCuaCacViSao/DamDaTiec9.PNG",
+    "name": "Embellished metallic jacquard mini dress 2",
+    "brand":"Elise",
+    "price": "$210",
+    "color":"Blue",
+    "type":"Jean",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "designer":"Nguyen Cong Tri",
+    "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
+    "code":17428787259530055
+  },
+  {
+    "id": 6,
+    "imgSrc": "image/NguyenCongTri/CuocDaoChoiCuaCacViSao/DamDaTiec2.PNG",
+    "name": "Appliquéd bouclé-tweed mini dress 2",
+    "brand":"Gucci",
+    "price": "$220",
+    "color":"White",
+    "type":"Suits",
+    "collection":"Cuoc Dao Choi Cua Cac Vi Sao",
+    "designer":"Nguyen Cong Tri",
+    "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
+    "code":17428787259530055
+  }
+]

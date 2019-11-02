@@ -1,0 +1,50 @@
+/*content*/
+/*body{*/
+    /*background-color: #edeef0;*/
+/*}*/
+.c_form_filter{
+    border-radius: 10px;
+    padding: 5px;
+}
+.c_left{
+    float: left;
+}
+.c_right{
+    float: right;
+}
+.c_clear{
+    clear: both;
+}
+.c-designer{
+    margin: 50px;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid red;
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px yellow;
+}
+.c-thumbnail-designer{
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+.c-thumbnail-designer>a>img{
+    height: 200px;
+}
+.c-thumbnail-designer:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.c-name{
+    margin-top: 5px;
+    color: red;
+}
+.c-country{
+    color: green;
+}
+.c-gachngang{
+    border-bottom: 1px dashed black;
+}

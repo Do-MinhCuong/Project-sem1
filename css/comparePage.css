@@ -1,0 +1,133 @@
+/*content*/
+/*body{*/
+    /*background-color: #edeef0;*/
+/*}*/
+*{
+    padding: 0;
+    margin: 0;
+}
+#sosanh{
+    margin-top: 5px;
+}
+.select-pr{
+    width: 400px;
+    height: 30px;
+    padding-left: 10%;
+    background-color: #107b5a;
+    color: white;
+    font-size: 15px;
+    display: block;
+}
+select>[disabled]{
+    color: #1BBC9B;
+}
+
+#title-compare{
+    width: 100%;
+    margin-top: 300px
+}
+.box{
+    width: 100%;
+    padding-left: 10%;
+    background-color: darkslategray;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 2px;
+    color: #ff7f38;
+}
+.anhsp{
+    width: 100%;
+    height: 300px;
+    background-color: #dbdbdb;
+}
+.anhsp>img{
+    width: 100px;
+    height: 150px;
+}
+#contentSp1>.box,
+#contentSp2>.box{
+    color: white;
+}
+@media screen and (max-width: 1000px) {
+    #title-compare{
+        display: none;
+    }
+}
+.tabs-menu,.tabs-menu2 {
+    height: 30px;
+    float: left;
+    clear: both;
+    list-style-type: none;
+}
+
+.tabs-menu>li,.tabs-menu2>li {
+    width: 110px; ;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-right: 4px;
+    background-color: #151412;
+    border-top: 1px solid #d4d4d1;
+    border-right: 1px solid #d4d4d1;
+    border-left: 1px solid #d4d4d1;
+}
+.tabs-menu>li:hover,.tabs-menu2>li:hover{
+    background-color: orange;
+}
+
+.tabs-menu>li>.current,.tabs-menu2>li>.current2 {
+    position: relative;
+    background-color: chocolate;
+    border-bottom: 1px solid #fff;
+    z-index: 5;
+}
+
+.tabs-menu>li>a,.tabs-menu2>li>a {
+    padding: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.tabs-menu>.current>a,.tabs-menu2>.current2>a {
+    color: #ff6e4b;
+}
+
+/*tab2*/
+
+.tab,.tab2 {
+    border: 1px solid #d4d4d1;
+    background-color: #fff;
+    float: left;
+    margin-bottom: 20px;
+    width: auto;
+    clear: both;
+}
+
+.tab-content,.tab-content2 {
+    width: 457px;
+    padding: 10px;
+    display: none;
+}
+
+#tab-1 {
+    display: block;
+}
+.c-compare{
+    margin: 10px;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid red;
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px yellow;
+}
+.c-compare-cart{
+    margin-top: 10px;
+    color: blue;
+    margin-bottom: 10px;
+}
+.c-compare-cart:hover{
+    background-color: #ff5a4d;
+}
