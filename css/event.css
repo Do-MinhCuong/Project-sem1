@@ -1,0 +1,20 @@
+.p_line {
+
+    margin-bottom: 50px;
+    font-family: 'Alex Brush', cursive;
+    font-size: 26px;
+}
+.p_hr1 {
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+.p_event{
+    margin-top: 50px;
+    position: relative;
+}
+div >  h1 {
+    font-family: 'Yeon Sung', cursive;
+}
+.p_sale{
+    position: absolute;
+}

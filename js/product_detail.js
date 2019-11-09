@@ -1,7 +1,7 @@
 /**
  * Created by user on 10/27/2019.
  */
-<!--clothes-->
+
 //    hien thi tren product details
 function getUrlVars() {
     var vars = [], hash;
@@ -13,7 +13,7 @@ function getUrlVars() {
     }
     return vars;
 }
-
+<!--clothes-->
 //    xuat du lieu file json
 var products = [];
 $(document).ready(function () {
@@ -37,7 +37,8 @@ $(document).ready(function () {
                     $("#product-collection").html("Collection: " + "<a href=#'>" + product.collection + "</a>");
                     $("#product-details").html("Product Details: " + product.details);
                     $("#product-code").html("Product Code: " + product.code);
-                    $("#product-shopping").html(" <a class='btn btn-default addToCart' data-name='"+product.name+"' data-price='"+product.price+"'><span class='glyphicon glyphicon-shopping-cart'></span>Add to Cart</a> ");
+                    $("#product-shopping").attr('data-name',product.name);
+                    $("#product-shopping").attr('data-price',product.price);
                     if (product.color==="Red"){
                         document.getElementById("product-color").className="c-icon-color-Red";
                     }
@@ -65,18 +66,6 @@ $(document).ready(function () {
 });
 
 <!--shoes-->
-//    hien thi tren product details
-function getUrlVars() {
-    var vars = [], hash;
-    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-    for (var i = 0; i < hashes.length; i++) {
-        hash = hashes[i].split('=');
-        vars.push(hash[0]);
-        vars[hash[0]] = hash[1];
-    }
-    return vars;
-}
-
 //    xuat du lieu file json
 var products = [];
 $(document).ready(function () {
@@ -100,7 +89,8 @@ $(document).ready(function () {
                     $("#product-collection").html("Collection: " + "<a href=#'>" + product.collection + "</a>");
                     $("#product-details").html("Product Details: " + product.details);
                     $("#product-code").html("Product Code: " + product.code);
-                    $("#product-shopping").html(" <a class='btn btn-default addToCart' data-name='"+product.name+"' data-price='"+product.price+"'><span class='glyphicon glyphicon-shopping-cart'></span>Add to Cart</a> ");
+                    $("#product-shopping").attr('data-name',product.name);
+                    $("#product-shopping").attr('data-price',product.price);
                     if (product.color==="Red"){
                         document.getElementById("product-color").className="c-icon-color-Red";
                     }
@@ -128,19 +118,6 @@ $(document).ready(function () {
 });
 
 <!--bag-->
-
-//    hien thi tren product details
-function getUrlVars() {
-    var vars = [], hash;
-    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-    for (var i = 0; i < hashes.length; i++) {
-        hash = hashes[i].split('=');
-        vars.push(hash[0]);
-        vars[hash[0]] = hash[1];
-    }
-    return vars;
-}
-
 //    xuat du lieu file json
 var products = [];
 $(document).ready(function () {
@@ -164,7 +141,8 @@ $(document).ready(function () {
                     $("#product-collection").html("Collection: " + "<a href=#'>" + product.collection + "</a>");
                     $("#product-details").html("Product Details: " + product.details);
                     $("#product-code").html("Product Code: " + product.code);
-                    $("#product-shopping").html(" <a class='btn btn-default addToCart' data-name='"+product.name+"' data-price='"+product.price+"'><span class='glyphicon glyphicon-shopping-cart'></span>Add to Cart</a> ");
+                    $("#product-shopping").attr('data-name',product.name);
+                    $("#product-shopping").attr('data-price',product.price);
                     if (product.color==="Red"){
                         document.getElementById("product-color").className="c-icon-color-Red";
                     }
@@ -192,19 +170,6 @@ $(document).ready(function () {
 });
 
 <!--accesories-->
-
-//    hien thi tren product details
-function getUrlVars() {
-    var vars = [], hash;
-    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-    for (var i = 0; i < hashes.length; i++) {
-        hash = hashes[i].split('=');
-        vars.push(hash[0]);
-        vars[hash[0]] = hash[1];
-    }
-    return vars;
-}
-
 //    xuat du lieu file json
 var products = [];
 $(document).ready(function () {
@@ -228,7 +193,8 @@ $(document).ready(function () {
                     $("#product-collection").html("Collection: " + "<a href=#'>" + product.collection + "</a>");
                     $("#product-details").html("Product Details: " + product.details);
                     $("#product-code").html("Product Code: " + product.code);
-                    $("#product-shopping").html(" <a class='btn btn-default addToCart' data-name='"+product.name+"' data-price='"+product.price+"'><span class='glyphicon glyphicon-shopping-cart'></span>Add to Cart</a> ");
+                    $("#product-shopping").attr('data-name',product.name);
+                    $("#product-shopping").attr('data-price',product.price);
                     if (product.color==="Red"){
                         document.getElementById("product-color").className="c-icon-color-Red";
                     }

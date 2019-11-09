@@ -1,0 +1,52 @@
+.p_line {
+
+    margin-bottom: 50px;
+    font-family: 'Alex Brush', cursive;
+    font-size: 26px;
+}
+
+.p_hr1 {
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+
+.p_hr2 {
+    width: 80%;
+    margin-top: 320px;
+    border: 1px dashed gray;
+}
+
+#p_scroll {
+    position: relative;
+}
+
+#p_scroll nav {
+    top: 100px;
+    position: sticky;
+}
+
+.nav-pills > li.active > a{
+    background: none;
+    color: red;
+    border-bottom: 1px dashed black;
+}
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:active{
+    background: none;
+    color: red;
+}
+.nav-pills > li{
+    height: 50px;
+    padding-bottom: 30px;
+}
+#section1, #section2, #section3, #section4{
+    text-indent: 2.5em;
+}
+
+@media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section4 {
+        margin-left: 150px;
+
+    }
+}

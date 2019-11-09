@@ -36,7 +36,7 @@
     margin-top: -1px;
     transition: all .5s ease ;
     position: relative;
-    border: 1px solid #1BBC9B;
+    border: 1px solid #2416fe;
     margin-right: -1px;
     z-index: 1;
 }
@@ -45,27 +45,27 @@
     color: white;
 }
 #payment{
-    width: 600px;
+    width: 1000px;
     height: 250px;
     background-color: white;
     box-shadow: 0 0 6px rgba(15,150,112,0.53);
     float: left;
     padding-bottom: 20px;
-    border-left: 1px solid #1BBC9B;
+    border-left: 1px solid #2416fe;
     display: none;
     overflow: auto;
 }
 #payment .col-md-12 {
     height: 60px;
     line-height: 60px;
-    border-top: 1px solid #1BBC9B;
+    border-top: 1px solid #2416fe;
     clear: both;
 }
 #payment .col-md-12 .col-md-1,
 #payment .col-md-12 .col-md-4,
 #payment .col-md-12 .col-md-3,
 #payment .col-md-12 .col-md-3{
-    border-right: 1px solid #1BBC9B;
+    border-right: 1px solid #2416fe;
 }
 #payment .col-md-12 .col-md-3 input{
     width: 100%;
@@ -78,8 +78,8 @@
     padding-bottom: 40px;
 }
 #header-payment{
-    background-color: #1b3446;
-    color: white;
+    background-color: #6dfece;
+    color: crimson;
 }
 #header-payment .col-md-2{
     text-align: center;
@@ -90,7 +90,7 @@
     margin-left: 15px;
 }
 #clearAll:hover{
-    color: #1BBC9B;
+    color: #ff5a4d;
 }
 .trash{
     font-size: 1.4em;
@@ -100,14 +100,14 @@
     line-height: 60px;
 }
 .trash:hover{
-    color: #1BBC9B;
+    color: #ff5a4d;
 }
 
 #snack_bar {
     visibility: hidden;
     min-width: 250px;
     margin-left: -125px;
-    background-color: #1a3345;
+    background-color: #ff5a4d;
     color: white;
     text-align: center;
     padding: 12px 20px;
@@ -122,12 +122,12 @@
     visibility: visible;
     animation: fadein 0.5s, fadeout 0.5s 1.2s;
 }
-.show {
-    visibility: visible;
-    animation: fadein 0.5s, fadeout 0.5s 1.2s;
-}
+/*.show {*/
+    /*visibility: visible;*/
+    /*animation: fadein 0.5s, fadeout 0.5s 1.2s;*/
+/*}*/
 #snack_bar span{
-    color: #1BBC9B;
+    color: #1506fe;
 }
 @keyframes fadein {
     from {
@@ -156,7 +156,7 @@ button view
     position: absolute;
     bottom: 0;
     right: 40px;
-    background-color: rgba(0,125,99,0.91);
+    background-color: #ff5a4d;
     width: 105px;
     line-height: 35px;
     padding-top: 5px;
@@ -175,7 +175,7 @@ button view
     position: absolute;
     bottom: 0;
     right: 100%;
-    background-color: rgba(1,92,69,0.73);
+    background-color: coral;
     width: 105px;
     height: 40px;
     z-index: 2;
@@ -185,36 +185,6 @@ button view
     right: 0;
     transition: all 0.4s ease;
 }
-.button-view .span2 {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 40px;
-    width: 40px;
-    background-color: #015c45;
-    color: black;
-    overflow: hidden;
-}
-.button-view .span2 .span2-1 {
-    position: absolute;
-    left: 28%;
-    top: 28%;
-    width: 50%;
-}
-.button-view .span2 .span2-2 {
-    position: absolute;
-    left: -128%;
-    top: 28%;
-    width: 50%
-}
-.button-view:hover .span2 .span2-1 {
-    left: 128%;
-    transition: 0.7s;
-}
 
-.button-view:hover .span2 .span2-2 {
-    left: 28%;
-    transition: all .7s ease;
-}
 /*==============
  */

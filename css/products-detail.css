@@ -86,3 +86,15 @@
 h5{
     line-height: 25px;
 }
+.btn.c_btn-green {
+    color: #ffffff;
+    background: #196ec2;
+    border: 1px solid #196ec2;
+}
+.btn.c_btn-green:hover,
+.btn.c_btn-green:focus,
+.btn.c_btn-green.active,
+.btn.c_btn-green:active {
+    background: #29ff1a;
+    color: #ff45c4;
+}

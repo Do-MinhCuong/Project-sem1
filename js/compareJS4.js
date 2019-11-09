@@ -26,13 +26,15 @@ function changeProducts14() {
                 + '</div>'
                 + '<div>'
                 + '<div class="box">' + products4[j].brand + '</div>'
-                + '<div class="box">' + products4[j].price + '</div>'
+                + '<div class="box">$' + products4[j].price + '</div>'
                 + '<div class="box">' + products4[j].color + '</div>'
                 + '<div class="box">' + products4[j].designer + '</div>'
                 + '<div class="box">' + products4[j].collection + '</div>'
                 + '<div class="box">' + products4[j].code + '</div>'
                 + '</div>'
             ;
+            $("#product-shopping1").attr('data-name',products4[j].name);
+            $("#product-shopping1").attr('data-price',products4[j].price);
         }
     }
 }
@@ -49,13 +51,15 @@ function changeProducts24() {
                 + '</div>'
                 + '<div>'
                 + '<div class="box">' + products4[j].brand + '</div>'
-                + '<div class="box">' + products4[j].price + '</div>'
+                + '<div class="box">$' + products4[j].price + '</div>'
                 + '<div class="box">' + products4[j].color + '</div>'
                 + '<div class="box">' + products4[j].designer + '</div>'
                 + '<div class="box">' + products4[j].collection + '</div>'
                 + '<div class="box">' + products4[j].code + '</div>'
                 + '</div>'
             ;
+            $("#product-shopping2").attr('data-name',products4[j].name);
+            $("#product-shopping2").attr('data-price',products4[j].price);
         }
     }
 }

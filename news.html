@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="favicon" rel="shortcut icon" href="image/iconlogo.png" type="image/x-icon"
+          style="height: 5px; width: 20px">
+    <title> MADAM News</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Great+Vibes&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/decd5ba54e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/head-foot.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/ScrollToTop.css">
+    <script src="js/ScrollToTop.js"></script>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="70">
+<header id="header1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 hidden-xs">
+                <div class="header-left">
+                    <a href="#"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                        +84-555-555-7979</a>
+                    <a>|</a>
+                    <a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> teamwork@gmail.com</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="header-left col-md-4">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">ENGLISH <span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-menu-language">
+                        <li><a href="#">ENGLISH</a></li>
+                        <li><a href="#">VIETNAMESE</a></li>
+                    </ul>
+                </div>
+                <div class="header-left hidden-xs" id="social">
+                    <a href="https://vi-vn.facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<header id="header2">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 text-right p_mgtop">
+                <a href="sign_in.html"><span class="glyphicon glyphicon-user"></span>&nbsp;Sign in</a>
+            </div>
+            <div class="col-md-2 p_mgtop">
+                <a href="#"><i class="fas fa-sign-out-alt"></i>&nbsp;Logout</a>
+            </div>
+            <div class="col-md-4 text-center" id="logo">
+                <a href="INDEX.html"><img src="image/logo.png" style="width: 100%;height: 170px"></a>
+            </div>
+            <div class="col-md-4 p_mgtop">
+                <div class="col-md-4 text-right"><a href="contact_us.html">Contact Us</a></div>
+                <div class="col-md-6"><a href="about_us.html">About Us</a></div>
+                <div class="col-md-12">
+                    <form class="navbar-form">
+                        <div class="input-group p_seach">
+                            <input type="text" class="form-control" placeholder="Seach">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<nav class="navbar  affix" data-spy="affix" data-offset-top="195">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="col-md-2 col-md-offset-1 navbar-brand">
+            <a class="p_logo" href="INDEX.html"><img src="image/logo.png" style="width:70%;height: 45px"></a>
+        </ul>
+        <ul class="col-md-7  nav navbar-nav">
+            <li><a href="INDEX.html">HOME</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="products_clothes.html">PRODUCTS
+                    <span class="caret"></span></a>
+                <ul class="dropdown-menu p_products">
+                    <li><a href="products_clothes.html">CLOTHES</a></li>
+                    <li><a href="products_shoes.html">SHOES</a></li>
+                    <li><a href="products_bag.html">BAGS</a></li>
+                    <li><a href="products_accessories.html">ACCESSORIES</a></li>
+                </ul>
+            </li>
+            <li><a href="collectionPage.html">COLLECTION</a></li>
+            <li class="active p_active"><a href="news.html">NEWS</a></li>
+            <li><a href="event.html">EVENT</a></li>
+            <li><a href="comparePage.html">COMPARE</a></li>
+        </ul>
+        <ul class="col-md-1 navbar-brand ">
+            <a class="p_logo" href="#"><i class="fas fa-search"></i></a>&nbsp;
+            <a href="#"><i class="far fa-heart"></i></a>&nbsp;
+            <a href="payment.html"><i class="fas fa-shopping-cart"></i></a>
+        </ul>
+    </div>
+</nav>
+<!--carousel-->
+<div class="container" id="slider">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <div class="item active">
+                <a href="#"> <img src="image/banner1.jpg" style="width:100%;height: 500px"></a>
+            </div>
+            <div class="item">
+                <a href="#"> <img src="image/banner2.jpg" style="width:100%;height:500px"></a>
+            </div>
+            <div class="item">
+                <a href="#"> <img src="image/banner3.jpg" style="width:100%;height: 500px"></a>
+            </div>
+            <div class="item">
+                <a href="#"> <img src="image/banner4.jpg" style="width:100%;height: 500px"></a>
+            </div>
+            <div class="item">
+                <a href="#"> <img src="image/banner5.jpg" style="width:100%;height: 500px"></a>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+</div>
+<!--news-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-5 p_hr1">
+                <hr>
+            </div>
+            <div class="col-md-2 p_line">
+                <a href="news.html"><h1>News</h1></a>
+            </div>
+            <div class="col-md-5 p_hr1">
+                <hr>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>
+<div class="container" id="p_scroll">
+    <div class="row">
+        <nav class="col-sm-4" id="myScrollspy">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="#section1">Tuần lễ thời trang Seoul: Đẳng cấp và sôi động</a></li>
+                <li><a href="#section2">Nhan sắc tân Hoa hậu Hòa bình Quốc tế</a></li>
+                <li><a href="#section3">Uniqlo chính thức về Việt Nam</a></li>
+                <li><a href="#section4">Dàn fashionista Việt hội tụ tại sự kiện giới thiệu dòng túi xách Guirlande của
+                    Cartier</a></li>
+            </ul>
+        </nav>
+        <div class="col-sm-8">
+            <div id="section1">
+                <div style="height: 60px"></div>
+                <h1>Cùng với hào quang xoay quanh văn hóa đương đại Hàn Quốc, nhất là ngành phim ảnh, âm nhạc và ẩm thực, sự
+                    chú
+                    ý của công chúng dành cho ngành thời trang của xứ sở kim chi đã gia tăng ngoạn mục trong thời gian
+                    qua.</h1>
+                <p> Tuần lễ Thời trang Seoul diễn ra từ ngày 14 – 19/10/2019 tại Cung thiết kế Dongdaemun. Trong khuôn khổ
+                    sự
+                    kiện, các designer hàng đầu đã trình diễn 34 show thiết kế thời trang và 20 show diễn thời trang dành
+                    riêng
+                    cho giới trẻ. Đồng thời, hai hoạt động nhận được rất nhiều sự chú ý là show diễn vinh danh designer
+                    người
+                    Hàn Quốc Park Choon Moo và designer đến từ Vương quốc Anh Ashley Williams. Đây là những lý do Tuần lễ
+                    Thời
+                    trang lần này đã thu hút sự tham dự của 150 hãng thời trang đến từ khắp các châu lục trên thế giới.
+                </p>
+                <img src="image/news1.jpg" style="width: 100%"><br><br>
+                <p>Tại show diễn "Demoo Parkchoonmoo", nhà thiết kế danh tiếng Park Choon Moo, còn được biết tới với tên gọi
+                    Demi Park đã giới thiệu bộ sưu tập mang chủ đề "Khí" (Air) tràn đầy cảm hứng với các mẫu áo làm từ chất
+                    liệu trong suốt được cắt may khéo léo, làm liên tưởng tới những chuyển động mơn man của luồng khí.</p>
+                <img src="image/news3.jpg" style="width:100%"><br><br>
+                <p>Sự xuất hiện của các siêu sao K-pop luôn tạo nên sắc mầu lung linh cho các sự kiện văn hóa Hàn Quốc và
+                    Tuần lễ Thời trang Seoul lần này không phải là ngoại lệ. Tại các show diễn thời trang lần này, người hâm
+                    mộ đã thực sự thỏa mãn khi được chiêm ngưỡng dàn sao K-pop hùng hậu tại các show trình diễn thời trang,
+                    trong đó có thể kể đến các thành viên của các nhóm nhạc lừng danh như Girls’ Generation, GWSN, AKMU… Một
+                    số sao K-pop thậm chí còn làm người hâm mộ sướng rơn khi mạnh dạn sải bước trên sàn catwalk trong các
+                    trang phục ấn tượng của các nhà thiết kế Hàn Quốc và quốc tế.</p>
+                <img src="image/news4.jpg" style="width:100%"><br><br>
+                <p>Cũng trong khuôn khổ Tuần lễ Thời trang Seoul, một số thương hiệu làm đẹp từ Việt Nam như I’m Beauty đã
+                    tham dự và có các hoạt động giao lưu, kết nối với các đối tác Hàn Quốc.
+                </p>
+                <img src="image/news5.jpg" style="width:100%"><br><br>
+            </div>
+            <div id="section2">
+                <div style="height: 60px"></div>
+                <h1>Nhan sắc tân Hoa hậu Hòa bình Quốc tế</h1>
+                <p>Hoa hậu Lourdes Valentina Figuera, 19 tuổi, ghi điểm với nụ cười rạng rỡ và thân hình đẹp gợi cảm. <br>
+                    Cô nhận được sự ủng hộ nồng nhiệt của khán giả quê nhà khi đại diện cho Venezuela tại Miss Grand 2019.
+
+                </p>
+                <img src="image/hoahậu.jpg" style="width: 100%"><br><br>
+                <p>Người đẹp Venezuela, Lourdes Valentina Figuera Morales, vừa giành vương miện Hoa hậu Hòa bình Quốc tế
+                    (Miss Grand International) trong đêm chung kết. Cô là đại diện đầu tiên của Venezuela đoạt ngôi vị này.</p>
+                <img src="image/hoahậu1.jpg" style="width:100%"><br><br>
+                <p>Chiến thắng của Lourdes Valentina Figuera không gây bất ngờ bởi cô luôn là thí sinh nổi bật trong suốt
+                    quá trình 3 tuần dự thi.</p>
+                <img src="image/hoahậu2.jpg" style="width:100%"><br><br>
+                <p>Tân hoa hậu sinh năm 2000. Cô có số đo 3 vòng lý tưởng 89-61-89 và cao 180 cm.</p>
+                <img src="image/hoahậu3.jpg" style="width:100%"><br><br>
+                <p>Người đẹp hiện là một giáo viên tiếng Anh kiêm kiến trúc sư.</p>
+                <img src="image/news2.jpg" style="width:100%"><br><br>
+                <p>Cô cũng làm công việc người mẫu bán thời gian. Cô gái năng động, cởi mở và luôn thu hút mọi người với vẻ
+                    đẹp rạng rỡ, tràn đầy năng lượng.</p>
+            </div>
+            <div id="section3">
+                <div style="height: 60px"></div>
+                <h1>Uniqlo chính thức về Việt Nam</h1>
+                <p>Thương hiệu bán lẻ thời trang toàn cầu Uniqlo thông báo chính thức thời gian và địa điểm khai trương cửa
+                    hàng đầu tiên ở Việt Nam. </p>
+                <img src="image/uniqlo-dong-khoi.jpg" style="width: 100%">
+                <p>Uniqlo chính công bố thời gian và địa điểm mở cửa cửa hàng đầu tiên tại Việt Nam. Bên cạnh đó, các BST
+                    hợp tác mới của Cara Delevingne x Olivier Rousteing và Meghan Markle x Marks&Spencer cũng là những tin
+                    thời trang đáng chú ý khác trong thời gian gần đây.</p>
+                <img src="image/uniqlo-tkelL1bjfcddc.jpg" style="width: 100%"><br><br>
+                <p>Là một trong những cửa hàng UNIQLO lớn nhất tại khu vực Đông Nam Á, UNIQLO Đồng Khởi có khu vực mua sắm
+                    với tổng diện tích lên đến 3.000 mét vuông trưng bày toàn bộ dòng sản phẩm Lifewear trên thế giới dành
+                    cho mọi đối tượng khách hàng nam, nữ, trẻ em ở nhiều độ tuổi khác nhau, trải dọc 3 tầng của tòa
+                    nhà. </p>
+                <img src="image/uniqlo-dong-san-pham-lifewear.jpg" style="width:100%"><br><br>
+                <p>Cửa hàng sẽ là nơi UNIQLO thường xuyên trưng bày những sản phẩm đặc biệt kết hợp cùng các nghệ sĩ Việt
+                    Nam
+                    hoặc những cá nhân tiên phong trong lĩnh vực sáng tạo, đổi mới như một cách để tôn vinh văn hóa bản địa
+                    độc đáo, năng động, tích cực của TP. Hồ Chí Minh.</p>
+                <img src="image/5-seattle-magazine-uniqlo-southcenter-wall-of-shirts.jpg" style="width:100%"><br><br>
+            </div>
+            <div id="section4">
+                <div style="height: 60px"></div>
+                <h1>Dàn fashionista Việt hội tụ tại sự kiện giới thiệu dòng túi xách Guirlande của
+                    Cartier</h1>
+                <p>Được xem là một trong những mẫu túi xách được mong chờ nhất năm 2019, sự kiện ra mắt BST túi xách
+                    Guirlande de Cartier tại cửa hàng Cartier tại Khách sạn Rex thu hút đông đảo sự quan tâm của giới mộ
+                    điệu. Đặc biệt sự kiện còn thu hút dàn fashionista đình đám nhất hiện nay như: Châu Bùi, Khánh Linh,
+                    Helly Tống, Salim, Thảo Nhi Lê, Emma Lê… </p>
+                <br>
+                <p>
+                    Guirlande de Cartier hứa hẹn sẽ tạo nên một trang sử mới cho dòng túi trang sức của hãng hoàn kim danh
+                    giá này. Điểm đặc biệt của chiếc túi chính là kỹ thuật chạm khắc tinh xảo với đường viền túi được lấy
+                    cảm hứng từ chiếc hộp Cartier Red Box mang đậm dấu ấn của Cartier.
+                </p>
+                <img src="image/HAI_1532.jpg" style="width: 100%">
+                <p>Trải qua bao nhiêu thăng trầm lịch sử với đế chế tạo tác đồng hồ và kim hoàn của mình, Cartier thấu hiểu
+                    nếu như kim cương được xem là người bạn tốt thì một chiếc túi hộp lại là “vật bất li thân” của các chị
+                    em phụ nữ. Không chỉ đem đến sự tiện dụng mà đây chính là thiết kế thể hiện sự nữ tính tuyệt đối, là món
+                    phụ kiện độc đáo đem đến sự sang trọng và đẳng cấp nhất cho người phụ nữ.
+                </p>
+                <img src="image/Thao-Nhi-Le-Khanh-Linh-Salim.jpg" style="width: 100%"><br><br>
+                <p>Bộ sưu tập được giới thiệu với 3 kích thước cùng 4 tông màu cơ bản: đỏ, đen, nâu và xanh mang tính ứng
+                    dụng cao và phù hợp cho mọi độ tuổi.</p>
+                <img src="image/Thao-Nhi-Le-Chau-Bui-Helly-Tong-Khanh-Linh-Salim-1024x759.jpg" style="width:100%"><br><br>
+                <img src="image/HAI_1895.jpg" style="width:100%"><br><br>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div style="height:50px"></div>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 text-center">
+                <h4>Website</h4>
+                <button type="button" class="btn btn-default btn-block"><a href="INDEX.html">Home</a></button>
+                <br>
+                <button type="button" class="btn btn-default btn-block"><a href="collectionPage.html">Collection</a></button>
+                <br>
+                <button type="button" class="btn btn-default btn-block"><a href="news.html">New</a></button>
+                <br>
+                <button type="button" class="btn btn-default btn-block"><a href="event.html">Event</a></button>
+                <br>
+                <form class="navbar-form">
+                    <div class="input-group p_seach2">
+                        <input type="text" class="form-control" placeholder="Seach">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-5">
+                <h4><i class="fas fa-map-marker-alt"></i> Address</h4>
+                <address>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d522.6154722737668!2d108.22242604261399!3d16.069432685765005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421833d5d33d15%3A0xdbd9a00a7271b8c8!2zMzggWcOqbiBCw6FpLCBI4bqjaSBDaMOidSAxLCBI4bqjaSBDaMOidSwgxJDDoCBO4bq1bmcgNTUwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1570247406401!5m2!1svi!2s"
+                            frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </address>
+            </div>
+            <div class="col-md-2">
+                <h4>Information</h4>
+                <br>
+                <button type="button" class="btn btn-default btn-block"><a href="contact_us.html">Contact us</a></button>
+                <br>
+                <button type="button" class="btn btn-default btn-block"><a href="about_us.html">About us</a></button>
+                <br>
+                <button type="button" class="btn btn-default btn-block"><a href="comparePage.html">Compare</a></button>
+                <br>
+                <button type="button" class="btn btn-default btn-block"><a href="Policy&FAQ.html">Policy&FAQ</a></button>
+                <br>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <h4>Email</h4>
+                <form role="form">
+                    <div class="form-group p_seach3">
+                        <input name="newsletter" type="text" id="newsletter" value="" class="form-control"
+                               placeholder="Please enter your E-mailaddress">
+                    </div>
+                    <button type="submit" class="btn btn-info btn-block">Submit</button>
+                </form>
+                <hr class="p_hr">
+                <a href="#">Follow Us</a><br>
+                <button class="p_icon p_icon1 btn btn-lg btn-default"><a href="https://vi-vn.facebook.com/"><i
+                        class="fab fa-facebook-f"></i></a></button>
+                <button class="p_icon p_icon2 btn btn-lg btn-default"><a href="#"><i class="fab fa-twitter"></i></a>
+                </button>
+                <button class="p_icon p_icon3 btn btn-lg btn-default"><a href="#"><i
+                        class="fab fa-instagram"></i></a>
+                </button>
+                <button class="p_icon p_icon4 btn btn-lg btn-default"><a href="#"><i class="fab fa-youtube"></i></a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="p_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"> Copyright © 2019 by Team</div>
+                <div class="col-md-3 col-md-offset-3">
+                    <img src="image/payments.png" style="width: 100%">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+<!--Login-->
+<div id="login">
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="container">
+                <div class="close" data-dismiss="modal"><span
+                        aria-hidden="true">&times;</span><span class="sr-only">Close</span></div>
+                <form>
+                    <div class="row">
+                        <h2 style="text-align:center">Login</h2>
+                        <div class="vl">
+                            <span class="vl-innertext">or</span>
+                        </div>
+                        <div class="col">
+                            <div class="hide-md-lg">
+                                <p>Or sign in manually:</p>
+                            </div>
+                            <input type="email" name="username" placeholder="Email" required>
+                            <input type="password" name="password" placeholder="Password" required>
+                            <input type="submit" value="Login">
+                        </div>
+                        <div class="col">
+                            <a href="#" class="fb btn">
+                                <i class="fab fa-facebook"></i> Facebook
+                            </a>
+                            <a href="#" class="twitter btn">
+                                <i class="fab fa-twitter"></i> Twitter
+                            </a>
+                            <a href="#" class="google btn">
+                                <i class="fab fa-google"></i> Google+
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="bottom-container">
+                <div>
+                    <div class="col2">
+                        <a href="#" style="color:white" class="btn">Forgot Password?</a>
+                    </div>
+                    <div class="col2">
+                        <a href="sign_in.html" style="color:white" class="btn">Sign In</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!--end login-->
+<!--Scroll To Top-->
+<div class="c-scroll-top-wrapper ">
+  <span class="c-scroll-top-inner">
+    <i class="fa fa-2x fa-arrow-circle-up"></i>
+  </span>
+</div>
+</body>
+</html>

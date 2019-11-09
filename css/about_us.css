@@ -1,0 +1,120 @@
+/*aboutUS*/
+/*============================*/
+#aboutUs {
+    position: relative;
+    margin-top: 53px;
+    overflow: hidden;
+}
+#aboutUs section{
+    padding-bottom: 10px;
+    position: relative;
+    background-color: #00a4fe;
+    color: white;
+    border-radius: 5%;
+}
+#aboutUs .tittle{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed red;
+}
+
+#aboutUs:hover .tittle .tittle-01{
+    width: 100%;
+    text-align: center;
+    transition: 2s;
+}
+#aboutUs:hover .tittle .tittle-01 h3{
+    color: black;
+    transform: scale(1.2);
+    transition: 2s;
+}
+#aboutUs:hover .tittle .tittle-01:after{
+    border-top: 45px solid coral;
+}
+
+#aboutUs .col-md-8 {
+    position: relative;
+}
+#ab {
+    position: relative;
+    padding-top: 30px;
+}
+#ab1,#ab2,#ab3,#ab4,#ab5 {
+    border-radius: 50%;
+}
+#ab1 img,#ab2 img,#ab3 img,#ab4 img,#ab5 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+/*==========================================*/
+
+#ab1,#ab2,#ab3,#ab4,#ab5{
+    width: 50%;
+    margin-top: 5px;
+    margin-left: 25%;
+}
+#ab1 img:hover,#ab2 img:hover,#ab3 img:hover,#ab4 img:hover,#ab5 img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+#ab-0 {
+    padding: 30px 0 20px 20px;
+    overflow: hidden;
+    margin-left: -20px;
+}
+
+#ab-0 div.row {
+    position: relative;
+    width: 80%;
+    border-bottom: 2px solid coral;
+    transition: all .5s ease;
+}
+
+#ab-0 h3 {
+    color: coral;
+    margin-top: 10px;
+}
+#ab-0 h3 span{
+    color: coral;
+}
+#ab-0 p {
+    padding-left: 20px;
+    margin-top: -7px;
+}
+#ab-0 .bor{
+    width: 12px;
+    height: 12px;
+    background-color: coral;
+    position: absolute;
+    bottom: -6px;
+    right: 0;
+    border-radius: 50%;
+}
+#ab-01, #ab-05 {
+    margin-left: 15%;
+}
+
+#ab-02, #ab-04 {
+    margin-left: 15%;
+}
+
+#ab-03 {
+    margin-left: 15%;
+}
+
+@media screen and (max-width: 997px) {
+    #aboutUs .col-md-4 {
+        display: none;
+    }
+
+    #ab-01, #ab-02, #ab-03, #ab-04, #ab-05 {
+        margin-left: 0;
+    }
+
+    #ab-0 div.row {
+        width: 100%;
+    }
+}

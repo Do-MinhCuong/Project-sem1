@@ -17,6 +17,8 @@
     <script src="js/ScrollToTop.js"></script>
     <link rel="stylesheet" href="css/sign_in.css">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <script src="js/shoppingCart.js"></script>
 </head>
 <body>
 <!--head-->
@@ -65,8 +67,8 @@
                 <a href="INDEX.html"><img src="image/logo.png" style="width: 100%;height: 170px"></a>
             </div>
             <div class="col-md-4 p_mgtop">
-                <div class="col-md-4 text-right"><a href="#">Contact Us</a></div>
-                <div class="col-md-6"><a href="#">About Us</a></div>
+                <div class="col-md-4 text-right"><a href="contact_us.html">Contact Us</a></div>
+                <div class="col-md-6"><a href="about_us.html">About Us</a></div>
                 <div class="col-md-12">
                     <form class="navbar-form">
                         <div class="input-group p_search">
@@ -99,8 +101,8 @@
             <a class="p_logo" href="INDEX.html"><img src="image/logo.png" style="width:70%;height: 45px"></a>
         </ul>
         <ul class="col-md-7  nav navbar-nav">
-            <li class="active p_active"><a href="INDEX.html">HOME</a></li>
-            <li class="dropdown">
+            <li><a href="INDEX.html">HOME</a></li>
+            <li class="dropdown active p_active">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="products_clothes.html">PRODUCTS
                     <span class="caret"></span></a>
                 <ul class="dropdown-menu p_products">
@@ -111,14 +113,14 @@
                 </ul>
             </li>
             <li><a href="collectionPage.html">COLLECTION</a></li>
-            <li><a href="#">NEWS</a></li>
-            <li><a href="#">EVENT</a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a href="event.html">EVENT</a></li>
             <li><a href="comparePage.html">COMPARE</a></li>
         </ul>
         <div class="col-md-1 navbar-brand ">
             <a class="p_logo" href="#"><i class="fas fa-search"></i></a>&nbsp;
             <a href="#"><i class="far fa-heart"></i></a>&nbsp;
-            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <a href="payment.html"><i class="fas fa-shopping-cart"></i></a>
         </div>
     </div>
 </nav>
@@ -134,19 +136,19 @@
                 <li data-target="#myCarousel" data-slide-to="4"></li>
             </ol>
             <div class="item active">
-                <a href="#"> <img src="image/bìa.jpg" style="width:100%;height: 500px"></a>
+                <a href="#"> <img src="image/banner1.jpg" style="width:100%;height: 500px"></a>
             </div>
             <div class="item">
-                <a href="#"> <img src="image/fashion-show-1746590__340.jpg" style="width:100%;height:500px"></a>
+                <a href="#"> <img src="image/banner2.jpg" style="width:100%;height:500px"></a>
             </div>
             <div class="item">
-                <a href="#"> <img src="image/fashion-show-1746582__340.jpg" style="width:100%;height: 500px"></a>
+                <a href="#"> <img src="image/banner3.jpg" style="width:100%;height: 500px"></a>
             </div>
             <div class="item">
-                <a href="#"> <img src="image/girl-2366438__340.jpg" style="width:100%;height: 500px"></a>
+                <a href="#"> <img src="image/banner4.jpg" style="width:100%;height: 500px"></a>
             </div>
             <div class="item">
-                <a href="#"> <img src="image/people-2590661__340.jpg" style="width:100%;height: 500px"></a>
+                <a href="#"> <img src="image/banner5.jpg" style="width:100%;height: 500px"></a>
             </div>
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
@@ -278,19 +280,59 @@
                     <br>
                     ACCESSORIES
                 </div>
-                <div id="divProducts">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="c_product">
+                        <div id="divProducts1"></div>
+                        <a class="btn c_btn-green addToCart" data-name="Ama striped wool and cashmere-blend scarf" data-price="120"><span
+                                class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</a>
+                    </div>
                 </div>
-                <div class="c_right">
-                    <ul class="pagination">
-                        <li><a href="products_clothes.html">1</a></li>
-                        <li><a href="products_shoes.html">2</a></li>
-                        <li><a href="products_bag.html">3</a></li>
-                        <li><a href="products_accessories.html">4</a></li>
-                        <li><a href="#">5</a></li>
-                        <li><a href="#">Next</a></li>
-                    </ul>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="c_product">
+                        <div id="divProducts2"></div>
+                        <a class="btn c_btn-green addToCart" data-name="Clementine oxidized silver-plated crystal choker" data-price="130"><span
+                                class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="c_product">
+                        <div id="divProducts3"></div>
+                        <a class="btn c_btn-green addToCart" data-name="Odette oxidized silver-plated crystal earrings" data-price="150"><span
+                                class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="c_product">
+                        <div id="divProducts4"></div>
+                        <a class="btn c_btn-green addToCart" data-name="Rhodium-plated crystal earrings" data-price="200"><span
+                                class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="c_product">
+                        <div id="divProducts5"></div>
+                        <a class="btn c_btn-green addToCart" data-name="Round-frame logo-embellished sunglasses" data-price="210"><span
+                                class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="c_product">
+                        <div id="divProducts6"></div>
+                        <a class="btn c_btn-green addToCart" data-name="Sandra marled wool-blend scarf" data-price="220"><span
+                                class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</a>
+                    </div>
                 </div>
             </section>
+            <div class="c_right">
+                <ul class="pagination">
+                    <li><a href="products_clothes.html">1</a></li>
+                    <li><a href="products_shoes.html">2</a></li>
+                    <li><a href="products_bag.html">3</a></li>
+                    <li><a href="products_accessories.html">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">Next</a></li>
+                </ul>
+            </div>
         </div>
     </content>
 </div>
@@ -306,9 +348,9 @@
                 <br>
                 <button type="button" class="btn btn-default btn-block"><a href="collectionPage.html">Collection</a></button>
                 <br>
-                <button type="button" class="btn btn-default btn-block"><a href="#">New</a></button>
+                <button type="button" class="btn btn-default btn-block"><a href="news.html">New</a></button>
                 <br>
-                <button type="button" class="btn btn-default btn-block"><a href="#">Event</a></button>
+                <button type="button" class="btn btn-default btn-block"><a href="event.html">Event</a></button>
                 <br>
                 <form class="navbar-form">
                     <div class="input-group p_seach2">
@@ -331,9 +373,9 @@
             <div class="col-md-2">
                 <h4>Information</h4>
                 <br>
-                <button type="button" class="btn btn-default btn-block"><a href="#">Contact Us</a></button>
+                <button type="button" class="btn btn-default btn-block"><a href="contact_us.html">Contact Us</a></button>
                 <br>
-                <button type="button" class="btn btn-default btn-block"><a href="#">About Us</a></button>
+                <button type="button" class="btn btn-default btn-block"><a href="about_us.html">About Us</a></button>
                 <br>
                 <button type="button" class="btn btn-default btn-block"><a href="comparePage.html">Compare</a></button>
                 <br>
@@ -428,6 +470,42 @@
     <i class="fa fa-2x fa-arrow-circle-up"></i>
   </span>
 </div>
+<!--add to cart-->
+<div id="add-to-cart">
+    <div id="counter"></div>
+    <div class="glyphicon glyphicon-shopping-cart" id="shopping-cart"></div>
+    <div id="payment">
+        <div class="col-md-12" id="header-payment">
+            <div class="col-md-4">Product</div>
+            <div class="col-md-3">Quantity</div>
+            <div class="col-md-3">Price</div>
+            <div class="col-md-2"><span id="clearAll" onclick="clearAll()">Delete</span>
+            </div>
+        </div>
+        <br/>
+        <div id="body-payment">
+            <!--Nội dung giỏ hàng-->
+        </div>
+        <div class="col-md-12" id="footer-payment">
+            <div class="col-md-7">
+                <b class="pull-right">TOTAL :</b>
+            </div>
+            <div class="col-md-5"><b id="total"></b></div>
+        </div>
+        <div class="col-md-3 col-md-push-7" id="bt-payment">
+            <a href="payment.html" class="button-view">
+            <span class="span1">
+                <span class="span1-1">PAYMENT</span>
+                <span class="span1-2"></span>
+            </span>
+            </a>
+        </div>
+    </div>
+</div><!--end add to cart-->
+<!--thông báo đã thêm vào shopping cart-->
+<div id="snack_bar">
+    <span class="glyphicon glyphicon-ok"></span> Add To Cart..
+</div>
 <script>
     var products = [];
 
@@ -448,8 +526,6 @@
         // vòng lặp: duyệt qua từng phần tử trong mảng products
         $.each(products, function (index, item) {
             var s = "";
-            s += "<div class='col-md-4 col-sm-6 col-xs-12'>";
-            s += "<div class='c_product'>";
             s += "<a href='products_detail.html?id=" + item.id + "'><img src='" + item.imgSrc + "'></a>";
             s += "<div class='c_content'>";
             s += "<div class='c_saleinfo'>";
@@ -459,15 +535,27 @@
             s += "<h4>" + item.name + "</h4>";
             s += "<small>Ad vegan excepteur butcher vice lomo. Leggings occaecat raw denim aesthetic. </small>";
             s += "<p class='c_price'>" + item.price + "</p>";
-            s += "<a class='btn c_btn-green'><span class='glyphicon glyphicon-shopping-cart' aria-hidden='true'></span>Add to Cart</a> ";
-            s += "</div>";
-            s += "</div>";
-            s += "</div>";
-            html += s;
+            html = s;
+            // Bỏ chuỗi html vào bên trong thẻ divProducts
+            if (item.id === 19) {
+                $("#divProducts1").html(html);
+            }
+            else if (item.id === 20) {
+                $("#divProducts2").html(html);
+            }
+            else if (item.id === 21) {
+                $("#divProducts3").html(html);
+            }
+            else if (item.id === 22) {
+                $("#divProducts4").html(html);
+            }
+            else if (item.id === 23) {
+                $("#divProducts5").html(html);
+            }
+            else {
+                $("#divProducts6").html(html);
+            }
         });
-
-        // Bỏ chuỗi html vào bên trong thẻ divProducts
-        $("#divProducts").html(html);
     }
 
     //    hideshow

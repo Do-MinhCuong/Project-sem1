@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 .background01{
     background-image: url("../image/background1.jpg");
     filter: blur(0);
@@ -9,19 +6,68 @@
 #shopping-cart{
     display: none;
 }
+/*payment*/
 #payment{
+    margin-top: 15px;
     width: 100%;
     height: auto;
     overflow: inherit;
-    border: 1px solid #1BBC9B;
+    /*border: 1px solid #2416fe;*/
     display: block;
 }
+#payment .col-md-12 {
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid #2416fe;
+    clear: both;
+}
+#payment .col-md-12 .col-md-1,
+#payment .col-md-12 .col-md-4,
+#payment .col-md-12 .col-md-3,
+#payment .col-md-12 .col-md-3{
+    border-right: 1px solid #2416fe;
+}
+#payment .col-md-12 .col-md-3 input{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+#bt-payment{
+    position: relative;
+    padding-bottom: 40px;
+}
+
+#header-payment .col-md-2{
+    text-align: center;
+}
+#clearAll{
+    cursor: pointer;
+    border-bottom: 1px solid #2416fe;
+    margin-left: 15px;
+}
+#clearAll:hover{
+    color: #ff5a4d;
+}
+.trash{
+    font-size: 1.4em;
+    margin-left: 50%;
+    cursor: pointer;
+    color: #555555;
+    line-height: 60px;
+}
+.trash:hover{
+    color: #ff5a4d;
+}
+
+/*payment*/
 #title{
+    margin-top: 15px;
     position: relative;
     font-size: 18px;
-    background-color: #1b3446;
+    background-color: #fef4a0;
     padding: 10px;
-    color: #1BBC9B;
+    color: crimson;
 }
 #counter{
     position: relative;
@@ -31,7 +77,7 @@
     background-color: transparent;
 }
 #footer-payment{
-    margin-bottom: -20px;
+    margin-bottom: 10px;
 }
 .pay .pull-right,
 .pay .pull-left{
@@ -53,7 +99,7 @@
     color: #1BBC9B;
 }
 #total{
-    color: #107b5a;
+    color: crimson;
 }
 #title-1,
 #title-2,
@@ -61,11 +107,11 @@
     margin-bottom: 2px;
     width: 100%;
     padding: 15px;
-    background-color: #1b3446;
-    color: #1BBC9B;
+    background-color: #ff5a4d;
+    color:snow;
     cursor: pointer;
     font-size: 18px;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 #title-1 span,
 #title-2 span,
@@ -80,6 +126,9 @@
 #ct-1 label{
     margin-left: 5px;
 }
+#title-00{
+    margin-top: 20px;
+}
 #title-00 input,
 #title-00 textarea{
     border-radius: 2px;
@@ -87,7 +136,7 @@
 #continue-1,
 #continue-2,
 #continue-3{
-    background-color: #1b3446;
+    background-color: #ff5a4d;
     color: white;
     padding-top: 10px;
     padding-left: 20px;
@@ -97,12 +146,13 @@
 #continue-1:hover,
 #continue-2:hover,
 #continue-3:hover{
-    background-color: #1BBC9B;
+    background-color: coral;
     color: white;
 }
 #title-00 .checkbox span{
     line-height: 1.7em;
 }
 #header-payment{
-    background-color: rgba(26,51,69,0.91);
+    background-color: #b2fe3b;
+    color: #ff5a4d;
 }

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/sign_in.css">
     <link rel="stylesheet" href="css/payment.css">
     <script src="js/shoppingCart.js"></script>
+
 </head>
 <body>
 <!--head-->
@@ -65,8 +66,8 @@
                 <a href="INDEX.html"><img src="image/logo.png" style="width: 100%;height: 170px"></a>
             </div>
             <div class="col-md-4 p_mgtop">
-                <div class="col-md-4 text-right"><a href="#">Contact Us</a></div>
-                <div class="col-md-6"><a href="#">About Us</a></div>
+                <div class="col-md-4 text-right"><a href="contact_us.html">Contact Us</a></div>
+                <div class="col-md-6"><a href="about_us.html">About Us</a></div>
                 <div class="col-md-12">
                     <form class="navbar-form">
                         <div class="input-group p_search">
@@ -111,14 +112,14 @@
                 </ul>
             </li>
             <li><a href="collectionPage.html">COLLECTION</a></li>
-            <li><a href="#">NEWS</a></li>
-            <li><a href="#">EVENT</a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a href="event.html">EVENT</a></li>
             <li><a href="comparePage.html">COMPARE</a></li>
         </ul>
         <div class="col-md-1 navbar-brand ">
             <a class="p_logo" href="#"><i class="fas fa-search"></i></a>&nbsp;
             <a href="#"><i class="far fa-heart"></i></a>&nbsp;
-            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <a href="payment.html"><i class="fas fa-shopping-cart"></i></a>
         </div>
     </div>
 </nav>
@@ -162,11 +163,11 @@
 <section class="container">
     <div class="row" id="title-00">
         <div class="col-md-12 col-sm-12 col-xs-12">
-            <div id="title-1"><span class="glyphicon glyphicon-tags"></span> Thông tin khách hàng:</div>
+            <div id="title-1"><span class="glyphicon glyphicon-tags"></span> Your Personal Details:</div>
             <div class="col-md-12 col-xs-12 col-sm-12" id="ct-1">
                 <div class="col-md-6 col-sm-6">
                     <div class="form-group">
-                        <label>Họ *</label>
+                        <label>First Name *</label>
                         <input type="text" class="form-control">
                     </div>
 
@@ -177,68 +178,68 @@
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <div class="form-group">
-                        <label>Tên *</label>
+                        <label>Last Name *</label>
                         <input type="text" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label>Số điện thoại *</label>
+                        <label>Tel *</label>
                         <input type="text" class=" form-control">
                     </div>
 
                 </div>
                 <div class="col-md-12">
                     <div class="form-group">
-                        <label>Địa chỉ:</label>
+                        <label>Address:</label>
                         <textarea class=" form-control"></textarea>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="checkbox">
                         <label>
-                            <input type="checkbox" class="checkbox"> <span>Đăng ký nhận bản tin từ COSY-AIRCONDITIONNERS.</span>
+                            <input type="checkbox" class="checkbox"> <span>I wish to subscribe to the MADAM Boutique.</span>
                         </label>
                     </div>
                     <div class="checkbox">
                         <label>
-                            <input type="checkbox" checked="checked"> <span>Địa chỉ giao hàng và thanh toán của giống nhau.</span>
+                            <input type="checkbox" checked="checked"> <span>My delivery and billing addresses are the same.</span>
                         </label>
                     </div>
-                    <button class="btn button pull-left" type="submit" id="continue-1">Tiếp tục</button>
+                    <button class="btn button pull-left" type="submit" id="continue-1">Continue</button>
                 </div>
             </div>
         </div>
         <div class="col-md-12 col-sm-12 col-xs-12">
-            <div id="title-2"><span class="glyphicon glyphicon-tags"></span> Phương thức thanh toán:</div>
+            <div id="title-2"><span class="glyphicon glyphicon-tags"></span> Payment Method:</div>
             <div class="col-md-12 col-xs-12 col-sm-12" id="ct-2">
                 <div class="col-md-12">
-                    <p>Vui lòng chọn phương thức thanh toán ưa thích để sử dụng cho đơn hàng này.</p>
+                    <p>Please select the preferred payment method to use on this order.</p>
                     <label>
-                        <input type="radio" name="CashOnDelivery" value="CashOnDelivery"> Thanh toán khi giao hàng
+                        <input type="radio" name="CashOnDelivery" value="CashOnDelivery"> Cash On Delivery
                     </label>
                     <div class="form-group">
-                        <label>Thêm bình luận về đơn hàng của bạn</label>
+                        <label>Add Comments About Your Order</label>
                         <textarea rows="8" class="input form-control"></textarea>
                     </div>
                     <div class="checkbox pull-left">
                         <label>
-                            <input type="checkbox"> <span>Tôi đã đọc và đồng ý với <a title="Điều khoản & Điều kiện" href="#">Điều khoản & Điều kiện</a></span>
+                            <input type="checkbox"> <span>I have read and agree to the  <a title="Terms & Conditions" href="Policy&FAQ.html">Terms & Conditions</a></span>
                         </label>
                     </div>
                     <div style="clear: both">
-                        <button class="btn button pull-left" type="submit" id="continue-2">Tiếp tục</button>
+                        <button class="btn button pull-left" type="submit" id="continue-2">Continue</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-md-12 col-sm-12 col-xs-12">
-            <div id="title-3"><span class="glyphicon glyphicon-tags"></span> Kiểm tra đơn hàng: ( <span id="counter"></span> sản phẩm )</div>
+            <div id="title-3"><span class="glyphicon glyphicon-tags"></span> Confirm Order: ( <span id="counter"></span> products )</div>
             <div class="col-md-12 col-xs-12 col-sm-12" id="ct-3">
                 <div id="payment">
                     <div class="col-md-12 col-sm-12 col-xs-12" id="header-payment">
-                        <div class="col-md-4 col-sm-4 col-xs-4">TÊN SẢN PHẨM</div>
-                        <div class="col-md-3 col-sm-3 col-xs-3">SỐ LƯỢNG</div>
-                        <div class="col-md-3 col-sm-3 col-xs-3">GIÁ</div>
-                        <div class="col-md-2 col-sm-2 col-xs-2" ><span id="clearAll" onclick="clearAll()">Xóa</span>
+                        <div class="col-md-4 col-sm-4 col-xs-4">PRODUCT</div>
+                        <div class="col-md-3 col-sm-3 col-xs-3">QUANTITY</div>
+                        <div class="col-md-3 col-sm-3 col-xs-3">PRICE</div>
+                        <div class="col-md-2 col-sm-2 col-xs-2"><span id="clearAll" onclick="clearAll()">DELETE</span>
                         </div>
                     </div>
                     <br/>
@@ -252,7 +253,7 @@
                         <div class="col-md-5 col-sm-5 col-xs-5"><h3 id="total"></h3></div>
                     </div>
                 </div>
-                <button class="btn button pull-right" type="submit" id="continue-3">THANH TOÁN</button>
+                <button class="btn button pull-right" type="submit" id="continue-3">Confirm Order</button>
             </div>
         </div>
     </div>
@@ -267,9 +268,9 @@
                 <br>
                 <button type="button" class="btn btn-default btn-block"><a href="collectionPage.html">Collection</a></button>
                 <br>
-                <button type="button" class="btn btn-default btn-block"><a href="#">New</a></button>
+                <button type="button" class="btn btn-default btn-block"><a href="news.html">New</a></button>
                 <br>
-                <button type="button" class="btn btn-default btn-block"><a href="#">Event</a></button>
+                <button type="button" class="btn btn-default btn-block"><a href="event.html">Event</a></button>
                 <br>
                 <form class="navbar-form">
                     <div class="input-group p_search2">
@@ -292,13 +293,13 @@
             <div class="col-md-2">
                 <h4>Information</h4>
                 <br>
-                <button type="button" class="btn btn-default btn-block"><a href="#">Contact Us</a></button>
+                <button type="button" class="btn btn-default btn-block"><a href="contact_us.html">Contact Us</a></button>
                 <br>
-                <button type="button" class="btn btn-default btn-block"><a href="#">About Us</a></button>
+                <button type="button" class="btn btn-default btn-block"><a href="about_us.html">About Us</a></button>
                 <br>
                 <button type="button" class="btn btn-default btn-block"><a href="comparePage.html">Compare</a></button>
                 <br>
-                <button type="button" class="btn btn-default btn-block"><a href="#">Policy&FAQ</a></button>
+                <button type="button" class="btn btn-default btn-block"><a href="Policy&FAQ.html">Policy&FAQ</a></button>
                 <br>
             </div>
             <div class="col-md-3 col-sm-3">

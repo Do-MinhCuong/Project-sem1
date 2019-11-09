@@ -145,9 +145,25 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.c_product>a>img{
+#divProducts1 img{
     height: 200px;
 }
+#divProducts2 img{
+    height: 200px;
+}
+#divProducts3 img{
+    height: 200px;
+}
+#divProducts4 img{
+    height: 200px;
+}
+#divProducts5 img{
+    height: 200px;
+}
+#divProducts6 img{
+    height: 200px;
+}
+
 .c_product:hover{
     transform: scale(1.1);
     transition: 1s;
