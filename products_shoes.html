@@ -65,9 +65,9 @@
             <div class="col-md-4 text-center" id="logo">
                 <a href="INDEX.html"><img src="image/logo.png" style="width: 100%;height: 170px"></a>
             </div>
-            <div class="col-md-4 p_mgtop">
-                <div class="col-md-4 text-right"><a href="contact_us.html">Contact Us</a></div>
-                <div class="col-md-6"><a href="about_us.html">About Us</a></div>
+            <div class="col-md-4">
+                <div class="col-md-4 p_mgtop text-right"><a href="contact_us.html">Contact Us</a></div>
+                <div class="col-md-6 p_mgtop"><a href="about_us.html">About Us</a></div>
                 <div class="col-md-12">
                     <form class="navbar-form">
                         <div class="input-group p_search">
@@ -116,11 +116,11 @@
             <li><a href="event.html">EVENT</a></li>
             <li><a href="comparePage.html">COMPARE</a></li>
         </ul>
-        <div class="col-md-1 navbar-brand ">
+        <ul class="col-md-1 navbar-brand ">
             <a class="p_logo" href="#"><i class="fas fa-search"></i></a>&nbsp;
             <a href="#"><i class="far fa-heart"></i></a>&nbsp;
             <a href="payment.html"><i class="fas fa-shopping-cart"></i></a>
-        </div>
+        </ul>
     </div>
 </nav>
 
@@ -546,7 +546,7 @@
             s += "</div>";
             s += "<h4>" + item.name + "</h4>";
             s += "<small>Ad vegan excepteur butcher vice lomo. Leggings occaecat raw denim aesthetic. </small>";
-            s += "<p class='c_price'>" + item.price + "</p>";
+            s += "<p class='c_price'>$" + item.price + "</p>";
             html = s;
             // Bỏ chuỗi html vào bên trong thẻ divProducts
             if (item.id === 7) {

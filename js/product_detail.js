@@ -32,7 +32,7 @@ $(document).ready(function () {
                     console.log(product);
                     $("#product-image").attr("src", product.imgSrc);
                     $("#product-name").html(product.name);
-                    $("#product-price").html("Price: " + product.price);
+                    $("#product-price").html("Price: $" + product.price);
 //                        $("#product-color").html("Color: " + product.color);
                     $("#product-collection").html("Collection: " + "<a href=#'>" + product.collection + "</a>");
                     $("#product-details").html("Product Details: " + product.details);
@@ -84,7 +84,7 @@ $(document).ready(function () {
                     console.log(product);
                     $("#product-image").attr("src", product.imgSrc);
                     $("#product-name").html(product.name);
-                    $("#product-price").html("Price: " + product.price);
+                    $("#product-price").html("Price: $" + product.price);
 //                        $("#product-color").html("Color: " + product.color);
                     $("#product-collection").html("Collection: " + "<a href=#'>" + product.collection + "</a>");
                     $("#product-details").html("Product Details: " + product.details);
@@ -136,7 +136,7 @@ $(document).ready(function () {
                     console.log(product);
                     $("#product-image").attr("src", product.imgSrc);
                     $("#product-name").html(product.name);
-                    $("#product-price").html("Price: " + product.price);
+                    $("#product-price").html("Price: $" + product.price);
 //                        $("#product-color").html("Color: " + product.color);
                     $("#product-collection").html("Collection: " + "<a href=#'>" + product.collection + "</a>");
                     $("#product-details").html("Product Details: " + product.details);
@@ -188,7 +188,7 @@ $(document).ready(function () {
                     console.log(product);
                     $("#product-image").attr("src", product.imgSrc);
                     $("#product-name").html(product.name);
-                    $("#product-price").html("Price: " + product.price);
+                    $("#product-price").html("Price: $" + product.price);
 //                        $("#product-color").html("Color: " + product.color);
                     $("#product-collection").html("Collection: " + "<a href=#'>" + product.collection + "</a>");
                     $("#product-details").html("Product Details: " + product.details);

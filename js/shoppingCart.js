@@ -67,7 +67,7 @@ function addToCheckOut() {
     if(cart.length == 0){
         bodyPayment.innerHTML += '<div class="col-md-12">'
             + '<p><span class="glyphicon glyphicon-paperclip" style="color: #1BBC9B"></span>'
-            + ' Bạn chưa có sản phẩm nào trong giỏ hàng!</p>'
+            + ' You have no item in your cart!</p>'
             + '</div>'
         ;
     }
@@ -120,7 +120,7 @@ function removeProduct(i) {
 
 /* Xóa tất cả phẩn tử trong cart[]*/
 function clearAll() {
-    if(confirm("Bạn có muốn xóa hết tất cả các sản phẩm có trong giỏ hàng?")){
+    if(confirm("Do you want to delete all products in the cart?")){
         cart = [];
         addToCheckOut();
         saveCart();
