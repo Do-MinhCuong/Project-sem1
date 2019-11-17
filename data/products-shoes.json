@@ -2,13 +2,13 @@
   {
     "id": 7,
     "imgSrc": "image/shoes/1.jpg",
-    "name": "Crinkled-leather knee boots",
+    "name": "Crinkled-leather boots",
     "brand":"Gucci",
     "designer":"Pierre Cardin",
     "price": "120",
     "color":"Pink",
     "type":"jacket",
-    "collection":"Dolce",
+    "collection":"Spring",
     "details":"<br>Composition Polyester 59%, Viscose 23%, Merino Wool 10%, Cashmere 5%, Elastane 3%.",
     "code":17428787259530055
   },
@@ -21,7 +21,7 @@
     "price": "130",
     "color":"Brown",
     "type":"dress",
-    "collection":"Dolce",
+    "collection":"autumn",
     "details":"<br>Composition Polyester 100%.",
     "code":7600457660107345
   },

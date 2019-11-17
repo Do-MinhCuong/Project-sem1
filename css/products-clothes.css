@@ -84,12 +84,13 @@
 }
 .c_product{
     text-align: center;
-    width: 100%;
+    width: 250px;
     background-color: #fdf8ff;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 25px;
     border: 1px solid darkgray;
     border-radius: 5px;
+    height: 400px;
 }
 .c_product>a{
     text-align: center;
@@ -164,7 +165,7 @@
     height: 200px;
 }
 
-.c_product:hover{
+.c_product img:hover{
     transform: scale(1.1);
     transition: 1s;
 }

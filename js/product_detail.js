@@ -34,7 +34,7 @@ $(document).ready(function () {
                     $("#product-name").html(product.name);
                     $("#product-price").html("Price: $" + product.price);
 //                        $("#product-color").html("Color: " + product.color);
-                    $("#product-collection").html("Collection: " + "<a href=#'>" + product.collection + "</a>");
+                    $("#product-collection").html("Collection: " + "<a href='collection_product.html'>" + product.collection + "</a>");
                     $("#product-details").html("Product Details: " + product.details);
                     $("#product-code").html("Product Code: " + product.code);
                     $("#product-shopping").attr('data-name',product.name);
@@ -86,7 +86,7 @@ $(document).ready(function () {
                     $("#product-name").html(product.name);
                     $("#product-price").html("Price: $" + product.price);
 //                        $("#product-color").html("Color: " + product.color);
-                    $("#product-collection").html("Collection: " + "<a href=#'>" + product.collection + "</a>");
+                    $("#product-collection").html("Collection: " + "<a  href='collection_product.html'>" + product.collection + "</a>");
                     $("#product-details").html("Product Details: " + product.details);
                     $("#product-code").html("Product Code: " + product.code);
                     $("#product-shopping").attr('data-name',product.name);
@@ -138,7 +138,7 @@ $(document).ready(function () {
                     $("#product-name").html(product.name);
                     $("#product-price").html("Price: $" + product.price);
 //                        $("#product-color").html("Color: " + product.color);
-                    $("#product-collection").html("Collection: " + "<a href=#'>" + product.collection + "</a>");
+                    $("#product-collection").html("Collection: " + "<a  href='collection_product.html'>" + product.collection + "</a>");
                     $("#product-details").html("Product Details: " + product.details);
                     $("#product-code").html("Product Code: " + product.code);
                     $("#product-shopping").attr('data-name',product.name);
@@ -190,7 +190,7 @@ $(document).ready(function () {
                     $("#product-name").html(product.name);
                     $("#product-price").html("Price: $" + product.price);
 //                        $("#product-color").html("Color: " + product.color);
-                    $("#product-collection").html("Collection: " + "<a href=#'>" + product.collection + "</a>");
+                    $("#product-collection").html("Collection: " + "<a href='collection_product.html'>" + product.collection + "</a>");
                     $("#product-details").html("Product Details: " + product.details);
                     $("#product-code").html("Product Code: " + product.code);
                     $("#product-shopping").attr('data-name',product.name);
@@ -219,4 +219,4 @@ $(document).ready(function () {
             });
         }
     });
-})
+});

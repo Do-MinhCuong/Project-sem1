@@ -38,7 +38,7 @@
 }
 #ab {
     position: relative;
-    padding-top: 30px;
+    padding-top:20px;
 }
 #ab1,#ab2,#ab3,#ab4,#ab5 {
     border-radius: 50%;
@@ -54,7 +54,7 @@
 #ab1,#ab2,#ab3,#ab4,#ab5{
     width: 50%;
     margin-top: 5px;
-    margin-left: 25%;
+    margin-left: 40%;
 }
 #ab1 img:hover,#ab2 img:hover,#ab3 img:hover,#ab4 img:hover,#ab5 img:hover{
     transform: scale(1.1);

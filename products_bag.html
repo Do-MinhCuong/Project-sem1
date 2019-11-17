@@ -135,19 +135,19 @@
                 <li data-target="#myCarousel" data-slide-to="4"></li>
             </ol>
             <div class="item active">
-                <a href="#"> <img src="image/banner1.jpg" style="width:100%;height: 500px"></a>
+                <a href="collection_product.html"> <img src="image/banner1.jpg" style="width:100%;height: 500px"></a>
             </div>
             <div class="item">
-                <a href="#"> <img src="image/banner2.jpg" style="width:100%;height:500px"></a>
+                <a href="collection_product.html"> <img src="image/banner2.jpg" style="width:100%;height:500px"></a>
             </div>
             <div class="item">
-                <a href="#"> <img src="image/banner3.jpg" style="width:100%;height: 500px"></a>
+                <a href="collection_product.html"> <img src="image/banner3.jpg" style="width:100%;height: 500px"></a>
             </div>
             <div class="item">
-                <a href="#"> <img src="image/banner4.jpg" style="width:100%;height: 500px"></a>
+                <a href="collection_product.html"> <img src="image/banner4.jpg" style="width:100%;height: 500px"></a>
             </div>
             <div class="item">
-                <a href="#"> <img src="image/banner5.jpg" style="width:100%;height: 500px"></a>
+                <a href="collection_product.html"> <img src="image/banner5.jpg" style="width:100%;height: 500px"></a>
             </div>
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
@@ -269,42 +269,42 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="c_product">
                         <div id="divProducts1"></div>
-                        <a class="btn c_btn-green addToCart" data-name="Paola embellished bag" data-price="120"><span
+                        <a class="btn c_btn-green addToCart" id="add-cart1"><span
                                 class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="c_product">
                         <div id="divProducts2"></div>
-                        <a class="btn c_btn-green addToCart" data-name="Glossed-leather tote" data-price="130"><span
+                        <a class="btn c_btn-green addToCart" id="add-cart2"><span
                                 class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="c_product">
                         <div id="divProducts3"></div>
-                        <a class="btn c_btn-green addToCart" data-name="Paola leather shoulder bag" data-price="150"><span
+                        <a class="btn c_btn-green addToCart" id="add-cart3"><span
                                 class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="c_product">
                         <div id="divProducts4"></div>
-                        <a class="btn c_btn-green addToCart" data-name="Pebbled-leather tote" data-price="200"><span
+                        <a class="btn c_btn-green addToCart" id="add-cart4"><span
                                 class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="c_product">
                         <div id="divProducts5"></div>
-                        <a class="btn c_btn-green addToCart" data-name="Textured-leather backpack" data-price="210"><span
+                        <a class="btn c_btn-green addToCart" id="add-cart5"><span
                                 class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="c_product">
                         <div id="divProducts6"></div>
-                        <a class="btn c_btn-green addToCart" data-name="Textured-leather tote" data-price="220"><span
+                        <a class="btn c_btn-green addToCart" id="add-cart6"><span
                                 class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</a>
                     </div>
                 </div>
@@ -525,21 +525,33 @@
             // Bỏ chuỗi html vào bên trong thẻ divProducts
             if (item.id === 13) {
                 $("#divProducts1").html(html);
+                $("#add-cart1").attr('data-name',item.name);
+                $("#add-cart1").attr('data-price',item.price);
             }
             else if (item.id === 14) {
                 $("#divProducts2").html(html);
+                $("#add-cart2").attr('data-name',item.name);
+                $("#add-cart2").attr('data-price',item.price);
             }
             else if (item.id === 15) {
                 $("#divProducts3").html(html);
+                $("#add-cart3").attr('data-name',item.name);
+                $("#add-cart3").attr('data-price',item.price);
             }
             else if (item.id === 16) {
                 $("#divProducts4").html(html);
+                $("#add-cart4").attr('data-name',item.name);
+                $("#add-cart4").attr('data-price',item.price);
             }
             else if (item.id === 17) {
                 $("#divProducts5").html(html);
+                $("#add-cart5").attr('data-name',item.name);
+                $("#add-cart5").attr('data-price',item.price);
             }
             else {
                 $("#divProducts6").html(html);
+                $("#add-cart6").attr('data-name',item.name);
+                $("#add-cart6").attr('data-price',item.price);
             }
         });
     }

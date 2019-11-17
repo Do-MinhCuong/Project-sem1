@@ -5,9 +5,10 @@
 content{
     margin: 20px 0;
 }
-.c-designer-image img{
+.c-collection-image>img{
     margin-left: 10%;
     height: 200px;
+    width: 80%;
     border: 1px solid yellowgreen;
     padding: 10px;
 }
@@ -17,7 +18,7 @@ content{
     border-radius: 3px;
     background-color: #fdf8ff;
 }
-.c-thumbnail-img img{
+.c-thumbnail-img>img{
     height: 200px;
 }
 .c-thumbnail-img:hover{
